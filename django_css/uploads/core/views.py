@@ -11,14 +11,22 @@ def home(request):
     return render(request, 'home.html')
 
 
-def about(request):
-    print('About')
-    return render(request, 'about.html')
+def petle(request):
+    print('Pętle')
+    return render(request, 'petle.html')
 
 
 def contact(request):
     print('Contact')
     return render(request, 'contact.html')
+
+def listy(request):
+    print('Listy')
+    return render(request, 'listy.html')
+
+def liczby(request):
+    print('Liczby pseudolosowe')
+    return render(request, 'liczby.html')
 
 
 def data_analysis(request):
