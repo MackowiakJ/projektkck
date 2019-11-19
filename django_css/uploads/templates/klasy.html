@@ -1,4 +1,19 @@
 {% extends 'base.html' %}
+ <h1>Klasy i obiekty</h1>
+  <p>Ponieważ programowanie obiektowe jest zagadnieniem trudnym, najłatwiej będzie wyjaśnić pojęcie klasy i obiektu na przykładzie.
+    "Kot" to klasa. Większość kotów lubi jeść, spać i być głaskanym, są to metody danej klasy.
+    Każdy sierściuch ma swoje imię, wagę i wiek, to pola klasy. Konkretny kot, np. mój kot to egzemplarz klasy, czyli obiekt tej klasy.
+    </br>
+    Przykład: wykładowca jest klasą. Jej konkretnym egzemplarzem jest "moj_wykladowca"
+    Wykładowca ma swoje zachowania (np. zrobienie wejściówki).
+    Parametr ”self” (zawsze jako pierwszy!) jest specjalnym parametrem,który przekazuje do każdej metody obiekt klasy na jakiej ma operować.
+    <img src="/static/img/klasy1.jpg">
+    </br>
+    Konstruktor to metoda wywoływana tylko raz, automatycznie podczas tworzenia obiektu. Można go wykorzystać np. do ustalenia wartościpoczątkowych pól klasy. Podczas pisania gry, gdzie każdy przeciwnik to osobny egzemplarz klasy, możemy, podczas jego tworzenia przypisać mu wartości początkowe np. punktów życia.
+    <img src="/static/img/klasy2.jpg">
+    Kilka egzemplarzy danej klasy:
+    <img src="/static/img/klasy3.jpg"></p>
+
 
 {% block content %}
 
