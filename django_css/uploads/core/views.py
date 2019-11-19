@@ -16,9 +16,9 @@ def petle(request):
     return render(request, 'petle.html')
 
 
-def contact(request):
-    print('Contact')
-    return render(request, 'contact.html')
+def funkcje(request):
+    print('Funkcje')
+    return render(request, 'funkcje.html')
 
 def listy(request):
     print('Listy')
