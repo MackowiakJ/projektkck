@@ -1,9 +1,9 @@
 h1 {
-  color: #002395;
+  color: 	#F08080;
 }
 
 body{
-  background-image: url("/static/img/bg.jpg");
+  background-color:	#FAF0E6;
 }
 
 input[type=file], select {

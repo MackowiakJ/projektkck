@@ -1,21 +1,41 @@
 {% extends 'base.html' %}
 
 {% block content %}
-  <h1 align="center">Pętle</h1>
-    <p align="center">W Pythonie używane są dwa rodzaje pętli: <b>while</b> i <b>for</b>.<br></p>
-  <h2 align="center">Pętla <b>for</b></h2>
+
+<style>
+
+
+  .box-of-chocolates {
+  width: 1000px;
+  height: 250px;
+  padding: 10px 100px 20px 100px;
+  margin: auto;
+  background-color: #FFFAFA;
+}
+.border-box {
+  box-sizing: border-box;
+}
+</style>
+
+  <h1 align="center"><font size = 7>Pętle</font></h1>
+  <h2 align="center"><font size = 5>Pętla <b>for</b></font></h2>
+     <div class="box-of-chocolates">
     <p align="center">Pętla for "przebiega" przez podany ciąg liczb. Przykład:
-      #zdjecie tu trzeba bedzie#
-      <br>Pętlę for możemy zrealizować z użyciem funkcji range lub xrange. Różnica między nimi polega na tym, że range zwraca nową tablicę liczb zawartych w określonym przedziale, natomiast xrange zwraca pojedyńczą liczbę, co czyni ją w pętlach bardziej wydajną. Python 3 używa funkcji range, która działa jak xrange. Funkcja xrange zwracając liczby zaczyna od 0.</p>
-  <h3 align="center">Pętla <b>while</b></h3>
+      <br>Pętlę for możemy zrealizować z użyciem funkcji range lub xrange. Różnica między nimi polega na tym, że range zwraca nową tablicę liczb zawartych w określonym przedziale, natomiast xrange zwraca pojedyńczą liczbę, co czyni ją w pętlach bardziej wydajną. Python 3 używa funkcji range, która działa jak xrange. Funkcja xrange zwracając liczby zaczyna od 0. # zdjecie #</p>
+    </div>
+  <h3 align="center"><font size=5>Pętla <b>while</b></font></h3>
+  <div class="box-of-chocolates">
     <p align="center">WHILE rozpoczyna blok instrukcji, które będą wykonywać się tak długo, jak długo zadany warunek jest spełniony. Warunek po każdym wykonaniu jest ponownie sprawdzany i jeśli warunek jest prawdziwy (zwraca wartość True), kod w bloku jest wykonywany. Jeżeli warunek jest fałszywy – przyjmie wartość False, blok kodu wewnętrz pętli się nie wykona. Interpreter pójdzie dalej. # zdjecia # <br>
       Jeżeli warunek byłby cały czas spełniony, pętla wykonywałaby się bez końca. Stąd dla pythona instrukcja while True, to po prostu pętla nieskończona. # zdjecia # </p>
-  <h4 align="center">Instrukcje break i continue</h4>
+</div>
+  <h4 align="center"><font size=5>Instrukcje break i continue</font></h4>
+  <div class="box-of-chocolates">
   <p align="center">Do tej pory pętla (for albo while) wykonywała się dopóki był spełniony warunek. Czasami chcemy zakończyć aktualną integrację lub nawet całą pętlę wcześniej – bez kolejnego sprawdzania wyrażenia warunkowego. Python udostępnia nam dwie instrukcje break oraz continue, które odpowiadają za natychmiastowe przerwanie bieżącej iteracji. <br>
     <ul style="display: inline-block;">
       <li>break – kończy działanie pętli. Interpreter przechodzi do dalszej części instrukcji – następujących po bloku pętli.</li>
       <li>continue – kończy iterację bieżącej pętli. Interpreter wraca do początku pętli, wyrażenie warunkowe jest ponownie sprawdzane, aby określić, czy pętla zostanie wykonana ponownie, czy zakończyć i przejść dalej.</li>
     </ul>
+    </div>
     <br>
     # wiecej zdjec #
     </p>
