@@ -11,4 +11,5 @@ urlpatterns = [
     url('funkcje/', views.funkcje, name='funkcje'),
     url('listy/', views.listy, name='listy'),
     url('liczby/', views.liczby, name='liczby'),
+    url('klasy/', views.klasy, name='klasy'),
 ]
