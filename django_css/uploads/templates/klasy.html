@@ -1,20 +1,57 @@
 {% extends 'base.html' %}
- <h1>Klasy i obiekty</h1>
-  <p>Ponieważ programowanie obiektowe jest zagadnieniem trudnym, najłatwiej będzie wyjaśnić pojęcie klasy i obiektu na przykładzie.
+
+{% block content %}
+
+<style>
+
+
+  .box-of-chocolates4 {
+  width: 1000px;
+  height: 1100px;
+  padding: 10px 100px 20px 100px;
+  margin: auto;
+  background-color: #FFFAFA;
+}
+.border-box {
+  box-sizing: border-box;
+}
+</style>
+
+ <h1 align="center"><font size = 7>Klasy i obiekty</font></h1>
+ <div class="box-of-chocolates4">
+  <p align="center">Ponieważ programowanie obiektowe jest zagadnieniem trudnym, najłatwiej będzie wyjaśnić pojęcie klasy i obiektu na przykładzie.
     "Kot" to klasa. Większość kotów lubi jeść, spać i być głaskanym, są to metody danej klasy.
     Każdy sierściuch ma swoje imię, wagę i wiek, to pola klasy. Konkretny kot, np. mój kot to egzemplarz klasy, czyli obiekt tej klasy.
-    </br>
+    <br>
     Przykład: wykładowca jest klasą. Jej konkretnym egzemplarzem jest "moj_wykladowca"
     Wykładowca ma swoje zachowania (np. zrobienie wejściówki).
     Parametr ”self” (zawsze jako pierwszy!) jest specjalnym parametrem,który przekazuje do każdej metody obiekt klasy na jakiej ma operować.
+    <br>
+    <br>
     <img src="/static/img/klasy1.jpg">
-    </br>
+    <br>
+    <br>
     Konstruktor to metoda wywoływana tylko raz, automatycznie podczas tworzenia obiektu. Można go wykorzystać np. do ustalenia wartościpoczątkowych pól klasy. Podczas pisania gry, gdzie każdy przeciwnik to osobny egzemplarz klasy, możemy, podczas jego tworzenia przypisać mu wartości początkowe np. punktów życia.
+    <br>
+    <br>
     <img src="/static/img/klasy2.jpg">
+    <br>
+    <br>
     Kilka egzemplarzy danej klasy:
+    <br>
+    <br>
     <img src="/static/img/klasy3.jpg"></p>
+    </div>
+    <h4 align="center"><font size=5>Przydatne linki</font></h4>
+    <div style="text-align: center;">
+      <ul style="display: inline-block;">
+      <li><a href="https://www.youtube.com/watch?v=XHWi2f9KziU"><font color="black">Film 1</font></a>
+        <li><a href="https://docs.python.org/3.7/tutorial/modules.html"><font color="black">O tworzeniu klas</font></a>
+          <li><a href="https://www.tutorialspoint.com/python/python_classes_objects.htm"><font color="black">Jeszcze trochę o tworzeniu klas</font></a>
+    </ul>
+    </div>
 
 
-{% block content %}
+
 
 {% endblock %}

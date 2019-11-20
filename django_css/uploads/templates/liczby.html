@@ -15,22 +15,52 @@
 .border-box {
   box-sizing: border-box;
 }
+
+.box-of-chocolates3 {
+width: 1000px;
+height: 150px;
+padding: 10px 100px 20px 100px;
+margin: auto;
+background-color: #FFFAFA;
+}
+.border-box {
+box-sizing: border-box;
+}
+
 </style>
 
 <h1 align="center">Liczby pseudolosowe</h1>
-<div class="box-of-chocolates">
-  <p align="center"> Liczby te nazywane są pseudolosowymi, ponieważ nie są generowane przez komputer w prawdziwie losowy sposób, lecz za pomocą wzoru matematycznego. Pozwalają one m.in. na dostarczenie elementu przypadku w tworzonym przez nas programie. Aby z nich skorzystać należy najpierw zaimportować moduł random (Moduły są to pliki, które zawierają kod przeznaczony do wykorzystywania w innych programach. W przypadku modułu random jest on odpowiedzialny za funkcję związane z generowaniem liczb pseudolosowych.).</p>
+<div class="box-of-chocolates3">
+  <p align="center">
+    <br>
+     Liczby te nazywane są pseudolosowymi, ponieważ nie są generowane przez komputer w prawdziwie losowy sposób, lecz za pomocą wzoru matematycznego. Pozwalają one m.in. na dostarczenie elementu przypadku w tworzonym przez nas programie. Aby z nich skorzystać należy najpierw zaimportować moduł random (Moduły są to pliki, które zawierają kod przeznaczony do wykorzystywania w innych programach. W przypadku modułu random jest on odpowiedzialny za funkcję związane z generowaniem liczb pseudolosowych.).</p>
   </div>
-<h2 align="center">Losowanie liczb zmiennoprzecinkowych</h2>
+<h2 align="center"><font size=5>Losowanie liczb zmiennoprzecinkowych</font></h2>
 <div class="box-of-chocolates">
-    <p align="center">Do losowania liczb zmiennoprzecinkowych służy funkcja random.random, która zwraca losową liczbę z zakresu od 0 do 1:
+    <p align="center">Do losowania liczb zmiennoprzecinkowych służy funkcja random.random. Zwraca ona liczbę rzeczywistą z przedziału [0.0, 1.0) – nawias kwadratowy oznacza przedział domknięty z lewej strony a nawias okrągły z prawej strony oznacza przedział otwarty z prawej strony, czyli zbiór możliwych wartości rozciąga się od zera do jeden, z wyłączeniem jedynki.
+    <br>
+    <br>
+    <br>
       <img src="/static/img/liczby1.jpg"><br>
 </div>
-<h3 align="center">Losowanie liczb całkowitych</h3>
+<h3 align="center"><font size=5>Losowanie liczb całkowitych</font></h3>
 <div class="box-of-chocolates">
   <p align="center">Do losowania liczb całkowitych służy funkcja random.randint, która zwraca losową liczbę z podanego zakresu. Wymaga podania dwóch argumentów w postaci liczb całkowitych i zwraca losową liczbę całkowitą o wartości mieszczącej się w przedziale wyznaczonym przez argumenty do które one należą:
-    <img src="/static/img/liczby2.jpg"><br>
+    <br>
+    <br>
+    <img src="/static/img/liczby2.jpg">
+    <br>
+    <br>
   Liczbę całkowitą generuje również funkcja <b>randrange()</b>. Najprostszym sposobem na jej zastosowanie jest użycie pojedyńczego argumentu w postaci dodatniej liczby całkowitej. Wówczas wylosowana zostanie liczba całkowita z przedziału <b><0,liczba_w_argumencie></b>.</p>
+  </div>
+  <h4 align="center"><font size=5>Przydatne linki</font></h4>
+  <div style="text-align: center;">
+    <ul style="display: inline-block;">
+    <li><a href="https://www.youtube.com/watch?v=TvfwGZr87Ss"><font color="black">Film 1</font></a>
+      <li><a href="https://www.youtube.com/watch?v=FM8o9d5Hrtc"><font color="black">Film 2</font></a>
+        <li><a href="https://docs.python.org/3.7/tutorial/controlflow.html#the-range-function"><font color="black">Więcej o range()</font></a>
+          <li><a href="https://pl.python.org/docs/lib/module-random.html"><font color="black">Więcej o module random</font></a>
+  </ul>
   </div>
 
 {% endblock %}
