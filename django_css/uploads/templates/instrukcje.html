@@ -1,16 +1,70 @@
 {% extends 'base.html' %}
 
 {% block content %}
-<h1>Początki</h1>
-<p>Pracę w pythonie warto zacząć od pobrania i zainstalowania np. programu atom.
-  Jest to edytor programistycznych kodów źródłowych, umożliwiający pisanie w wielu językach programowania.</p>
+
+<style>
+
+
+  .box-of-chocolates5 {
+  width: 1000px;
+  height: 300px;
+  padding: 10px 100px 20px 100px;
+  margin: auto;
+  background-color: #FFFAFA;
+}
+.border-box {
+  box-sizing: border-box;
+}
+
+.box-of-chocolates6 {
+width: 1000px;
+height: 550px;
+padding: 10px 100px 20px 100px;
+margin: auto;
+background-color: #FFFAFA;
+}
+.border-box {
+box-sizing: border-box;
+}
+
+</style>
+
+<h1 align="center">Początki</h1>
+  <div class="box-of-chocolates5">
+<p align="center">Pracę w pythonie warto zacząć od pobrania i zainstalowania np. programu atom.
+  Jest to edytor programistycznych kodów źródłowych, umożliwiający pisanie w wielu językach programowania.
+<br>
+<br>
 <img src="/static/img/atom.jpg">
-<<h1>Instrukcje warunkowe</h1>
-<p>Jeżeli mamy już program umożliwiający pisanie kodu, możemy zacząć programować w pythonie.
+<br>
+<br>
+</p>
+</div>
+<h1 align="center">Instrukcje warunkowe</h1>
+  <div class="box-of-chocolates6">
+<p align ="center">Jeżeli mamy już program umożliwiający pisanie kodu, możemy zacząć programować w pythonie.
 Pierwszym ważnym zagadnieniem są instrukcje warunkowe, służące do sprawdzenia prawdziwości wyrażenia warunkowego.
 W zależności od tego czy wyrażenie warunkowe jest prawdziwe czy nie, wykonany zostanie inny fragment kodu.
+<br>
+<br>
 <img src="/static/img/instrukcje1.jpg">
+<br>
+<br>
 Jeśli jest kilka warunków do sprawdzenia wykorzystujemy polecenie elif. ”elif” jest skrótem od ”else if”
-<img src="/static/img/instrukcje2.jpg"></p>
+<br>
+<br>
+<img src="/static/img/instrukcje2.jpg">
+<br>
+<br>
+</p>
+</div>
+<h4 align="center"><font size=4>Przydatne linki</font></h4>
+<div style="text-align: center;">
+  <ul style="display: inline-block;">
+  <li><a href="https://www.youtube.com/watch?v=pHZlmBN1YaE"><font color="black">Film 1</font></a>
+    <li><a href="https://www.learnpython.org/pl/Instrukcje_warunkowe"><font color="black">O operatorach instrukcji warunkowych</font></a>
+      <li><a href="https://python101.readthedocs.io/pl/latest/podstawy/przyklady/przyklad01.html"><font color="black">O tworzeniu instrukcji warunkowych</font></a>
+</ul>
+</div>
 
 {% endblock %}
