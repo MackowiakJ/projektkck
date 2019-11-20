@@ -10,6 +10,10 @@ def home(request):
     print('Home')
     return render(request, 'home.html')
 
+def instrukcje(request):
+    print('Instrukcje')
+    return render(request, 'instrukcje.html')
+
 def klasy(request):
     print('Klasy')
     return render(request, 'klasy.html')
